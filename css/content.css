@@ -99,7 +99,9 @@ button a:link, a:visited{
   flex-wrap: wrap;
   min-height: 95vh;
   align-items:center;
+  z-index: inherit;
 }
+
 .fiil .txt-btn{
   margin: 80px;
   color: white;
