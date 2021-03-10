@@ -93,6 +93,8 @@ button a:link, a:visited{
 /* IDEA: full image intro left - home page*/
 .fiil{
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-wrap: wrap;
   min-height: 95vh;
