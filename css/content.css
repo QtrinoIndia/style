@@ -100,11 +100,13 @@ button a:link, a:visited{
   min-height: 95vh;
   align-items:center;
   z-index: inherit;
+
 }
 
 .fiil .txt-btn{
   margin: 80px;
   color: white;
+  max-width: 60%;
 }
 .fiil .txt-btn h1{
   font-size: 150px;
