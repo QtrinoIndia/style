@@ -2,6 +2,7 @@
 body{
   font-family: Helvetica, sans-serif;
   font-size: 17px;
+  margin: 0;
 }
 /* IDEA: all the headings */
 h1, h2, h3, h4, h6, h6{
