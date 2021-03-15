@@ -1,12 +1,13 @@
 /* NOTE: for all*/
 * {
-  text-decoration-line: none;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
 }
 
 /* NOTE: body  NOTE: body  NOTE: body  NOTE: body  NOTE: body  NOTE: body  NOTE: body */
 body {
-  margin: 0;
+  margin: 0px 0px;
+  padding: 0px 0px;
   background-color: white;
 }
 
@@ -24,30 +25,51 @@ nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-tap-highlight-color: transparent;
 }
-
+nav ul li a:link{
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:visited{
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: white;
+  background-color: rgba(0,0,0,.3);
+  text-decoration: none;
+}
+nav ul li a:active{
+  color: white;
+  background-color: rgba(0,0,0,.3);
+  text-decoration: none;
+}
+.social:hover,.social:active{
+  background-color: transparent;
+}
 nav label.logo {
-  margin-left: 80px;
+  margin-left: 10%;
 }
 
 nav label span {
   line-height: 60px;
   vertical-align: middle;
-  color: black;
-  font-size: 25px;
-  font-family: verdana, sans-serif;
+  color: gray;
+  font-size: 20px;
+  font-family: Tahoma,sans-serif;
+  font-weight: bold;
 }
 
 nav label img {
   line-height: 60px;
   vertical-align: middle;
-  height: 42px;
-  width: 42px;
+  height: 35px;
+  width: 35px;
 }
 
 nav ul {
   margin: 0;
   float: right;
-  margin-right: 80px;
+  margin-right: 10%;
 }
 
 nav ul li {
@@ -57,8 +79,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
-  font-size: 20px;
+  font-size: 15px;
   vertical-align: middle;
   padding: 7px 13px;
   border-radius: 3px;
@@ -71,21 +92,6 @@ nav ul li a img {
   vertical-align: middle;
 }
 
-.active {
-  color: white !important;
-  background: #16a5b5;
-  transition: .5s;
-}
-
-nav ul li a.contact {
-  color: black !important;
-}
-
-nav ul li a.contact:hover {
-  color: white !important;
-  background: #16a5b5;
-  transition: .5s;
-}
 
 .checkbtn {
   font-size: 33px;
@@ -135,13 +141,10 @@ nav ul li a.contact:hover {
 
   nav ul li {
     display: block;
-    margin: 40px 0;
+    margin: 25px 0;
     line-height: 30px;
   }
 
-  nav a.active: hover {
-    color: black;
-  }
 
   #check:checked~ul {
     left: 0;
@@ -157,56 +160,51 @@ nav ul li a.contact:hover {
 footer{
   display:flex;
   width: 100%;
-  background-color:rgb(60,60,60);
-  padding: 20px 80px;
+  background-color:rgb(50,50,50);
+  padding: 20px 10%;
   justify-content: space-between;
   font-family: verdana,sans-serif;
 }
-
-.help{
-  width: 25%;
+.help, .services, .web-links{
+  width: 20%;
   display:flex;
   flex-direction: column;
 }
-.help a{
-  padding-bottom:10px;
-  color:rgb(200,200,200);
-}
-.service{
-  width: 25%;
-  display:flex;
-  flex-direction: column;
-}
-.service a{
-  padding-bottom:10px;
-  color:rgb(200,200,200);
+.help .services .web-links, a{
+  padding-bottom: 5px;
 }
 .about{
-  width: 50%;
+  width: 40%;
   display:flex;
   flex-direction: column;
+  text-align: justify;
+  font-size: 15px;
 }
 .about p{
-  color:white;
+  color:rgb(200,200,200);
   margin: 0px;
 }
 footer div a:link{
-  color: white;
+  color: #16a5b5;
+  text-decoration: none;
 }
 footer div a:visited{
-  color:white;
+  color: #16a5b5;
+  text-decoration: none;
 }
 footer div a:hover{
-  text-decoration: underline;
-  color: powderblue;
-  transition: .5s;
+  color: orange;
+  text-decoration: none;
 }
 footer div a:active{
-  color: powderblue;
+  color: orange;
+  text-decoration: none;
 }
+
 footer div h3{
   padding-bottom: 10px;
-  color: white;
+  color: orange;
+  font-size: 15px;
   text-decoration: underline;
 }
 @media(max-width:1000px){
@@ -219,17 +217,82 @@ footer div h3{
     flex-direction: column;
     justify-content: center;
   }
-  .help, .service, .about{
+  .help, .services,.web-links,.about{
     width: 100%;
     align-items: center;
   }
 }
-.main-container{
-  padding-top: 60px;
+.gotop{
+  text-align: center;
+  background-color: rgba(70,70,70);
+  padding: 7px 0px;
+  text-decoration: none;
 }
+.gotop a{
+  text-decoration: none;
+  font-family:sans-serif;
+  font-size: 15px;
+  color: #16a5b5;
+  font-weight: bold;
+  transition: top 5s linear;
+}
+/* NOTE: copyright area */
 .copyright{
+  color: darkorange;
+  font-size: 15px;
   margin: 0;
-  background-color:rgb(60,60,60);
-  padding:20px;
+  background-color:rgb(50,50,50);
+  padding:30px;
   text-align:center;
+}
+
+/* NOTE: single container NOTE: single container  */
+
+.container-1{
+  padding-top:60px;
+  min-height: 100vh;
+}
+
+
+/* NOTE: three row container NOTE: three row container */
+.container-3{
+  padding-top:60px;
+  min-height: 100vh;
+  display: flex;
+}
+/* left container */
+.container-3-l{
+  width:18%;
+  background-color: gray;
+}
+.container-3-r{
+  width:18%;
+  background-color: gray;
+}
+/* middle/content container */
+.container-3-m{
+  width:64%;
+}
+@media(max-width: 900px){
+  .container-3{
+    flex-direction: column;
+  }
+  .container-3-m{
+    order:1;
+    width:100%;
+  }
+  .container-3-l{
+    order:2;
+    width:100%;
+  }
+  .container-3-r{
+    order:3;
+    width:100%;
+  }
+}
+/* NOTE: three row container NOTE: three row container */
+.container-6{
+  padding-top:60px;
+  min-height: 100vh;
+  display: flex;
 }
