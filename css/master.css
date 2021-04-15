@@ -6,7 +6,7 @@
   --gap-small:10px;
   --radius:3px;
   --clrn:#16a5b5;
-  --clr:rgb(21,152,168);
+  --clr:rgb(25,172,191);
   --clr-bright:#1cc4d6;
   --fresh:rgb(63,163,63);
   --fresh-low:rgba(63,163,63,.7);
@@ -430,7 +430,7 @@ button{
   font-size: 18px;
   font-family: sans-serif;
   cursor: pointer;
-  padding: 8px 15px;
+  padding: 10px 15px;
 }
 button:hover{
   background-color: var(--clr-bright);
