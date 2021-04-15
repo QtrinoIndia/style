@@ -5,7 +5,8 @@
   --gap-big:15px;
   --gap-small:10px;
   --radius:3px;
-  --clr:#16a5b5;
+  --clrn:#16a5b5;
+  --clr:rgb(21,152,168);
   --clr-bright:#1cc4d6;
   --fresh:rgb(63,163,63);
   --fresh-low:rgba(63,163,63,.7);
