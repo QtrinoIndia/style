@@ -78,7 +78,7 @@ nav label.logo {
 nav label span {
   line-height: 60px;
   vertical-align: middle;
-  color: gray;
+  color: var(--clr);
   font-size: 30px;
   font-family: Tahoma,sans-serif;
   font-weight: bold;
