@@ -5,17 +5,17 @@ document.getElementById("nav").innerHTML =
 +  '&#x2630;'
 +'</label>'
 +'<label class="logo">'
-+  '<a href="/"><img src="https://qtrinoindia.github.io/style/img/logo/qtrino.ico" alt="icon"></a>'
++  '<a href="/"><img src="/assets/logo/qtrino.ico" alt="icon"></a>'
 +  '<span> Brand Name</span>'
 +'</label>'
 +'<ul id="">'
 +  '<li><a id="home" href="/home.html">Home</a></li>'
-+  '<li><a id="products" href="/product.html">Products</a></li>'
-+  '<li><a id="blogs" href="/blog.html">Blogs</a></li>'
-+  '<li><a class="social" href="https://www.facebook.com/qtrino"><img src="https://qtrinoindia.github.io/style/img/logo/qfb.png" alt="fb"></a></li>'
-+  '<li><a class="social" href="https://www.instagram.com/_qtrino"><img src="https://qtrinoindia.github.io/style/img/logo/qinstagram.png" alt="instra"></a></li>'
-+  '<li><a class="social" href="https://twitter.com/qtrino1"><img src="https://qtrinoindia.github.io/style/img/logo/qtwitter.png" alt="twitter"></a></li>'
-+  '<li><a class="social" href="https://www.youtube.com/channel/UCSSmITU7-0-qr6D9xqlQMVA?sub_confirmation=1"><img src="https://qtrinoindia.github.io/style/img/logo/qtube.png" alt="youtube"></a></li>'
++  '<li><a id="product" href="/product.html">Products</a></li>'
++  '<li><a id="blog" href="/blog.html">Blogs</a></li>'
++  '<li><a class="social" href="https://www.facebook.com/qtrino"><img src="/assets/logo/fb.png" alt="fb"></a></li>'
++  '<li><a class="social" href="https://www.instagram.com/_qtrino"><img src="/assets/logo/instra.png" alt="instra"></a></li>'
++  '<li><a class="social" href="https://twitter.com/qtrino1"><img src="/assets/logo/twit.png" alt="twitter"></a></li>'
++  '<li><a style="padding-right:0px;" class="social" href="https://www.youtube.com/channel/UCSSmITU7-0-qr6D9xqlQMVA?sub_confirmation=1"><img src="/assets/logo/qtube.png" alt="youtube"></a></li>'
 +'</ul>';
 
 document.getElementById("foot").innerHTML =
@@ -50,8 +50,7 @@ var month = m;
 document.title
 document.getElementById("copyright").innerHTML =
 '© Copyright Brand - All Rights Reserved '
-+'['+year+']'
-;
++'['+year+']';
 
 var x= document.title;
 document.title = x + ' ['+month+ ']';
