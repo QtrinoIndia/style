@@ -43,6 +43,7 @@ document.getElementById("foot").innerHTML =
 +'</div>';
 
 
+
 var d = new Date();
 var year = d.getFullYear();
 var m = d.toDateString();
@@ -60,3 +61,15 @@ document.getElementById("gotop").innerHTML =
 +'Back to top'
 +' &#8679;'
 +'</a>';
+
+
+
+/*var blog_no=document.getElementsByClassName("share");
+var i=0;
+for (i = 0; i < blog_no.length; i++) {
+   document.getElementsByClassName("share")[i].innerHTML=
+   '<a class="social" href="https://www.facebook.com/sharer/sharer.php?u=https://www.qtrino.com"><img src="/assets/social/fb.png" alt="fb"></a>'
++  '<a class="social" href="https://www.instagram.com/_qtrino"><img src="/assets/social/twitter.png" alt="instra"></a>'
++  '<a class="social" href="https://twitter.com/qtrino1"><img src="/assets/social/redit.png" alt="twitter"></a>'
++  '<a class="social" href="https://twitter.com/qtrino1"><img src="/assets/social/whatsapp.png" alt="twitter"></a>'
+}*/

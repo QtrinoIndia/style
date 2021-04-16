@@ -7,6 +7,7 @@
   --radius:3px;
   --clrn:#16a5b5;
   --clr:rgb(25,172,191);
+  --clr-low:rgba(25,172,191,.5);
   --clr-bright:#1cc4d6;
   --fresh:rgb(63,163,63);
   --fresh-low:rgba(63,163,63,.7);
@@ -379,7 +380,7 @@ h1, h2, h3, h4, h5, h6{
 /* NOTE: Paragraphs */
 p,li{
   font-family: Helvetica, sans-serif;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 @media(min-width:1000px){
   p,li{
@@ -713,31 +714,68 @@ section{
   margin: 10px;
 }
 
-
-/* NOTE: Page Items NOTE: Page Items NOTE: Page Items*/
-/* NOTE: page items */
-
-/* Articles */
-.intro-normal{
-  color: black;
-  border-bottom: 3px solid black;
+/*blog post*/
+.blog{
+  display: flex;
+  justify-content: space-between;
+  margin: var(--gap-big) var(--margin-big);
 }
-.intro-attractive{
-  color: red;
-  border-bottom: 3px solid red;
+.blog > div{
+  display: flex;
+  width:49%;
+  background-color: var(--trust-low);
+  border-radius: 3px;
+  padding:7px 7px;
 }
-
-.intro-rich{
-  color: slateblue;
-  border-bottom: 3px solid slateblue;
+.blog div img{
+  width: 150px;
+  height:150px;
+  margin: 2px;
+  background-color:;
+  align-content: flex-start;
 }
-
-.intro-trust{
-  color: blue;
-  border-bottom: 3px solid blue;
+.blog div section{
+  margin: 2px 7px;
+  padding: 0;
+  background-color:;
+  overflow: hidden;
+  height:150px;
 }
-
-.intro-fresh{
-  color:green;
-  border-bottom: 3px solid green;
+.blog div section h2{
+  font-size: 22px;
+}
+.blog div section p{
+  font-size: 16px;
+  overflow: hidden;
+  margin: 0px 0px;
+  height: 78px;
+  color: white;
+}
+.blog div section button{
+  padding: 5px;
+  background-color: var(--trust);
+  font-size: 16px;
+}
+.blog div .share{
+  width:90px;
+  margin: 2px;
+  border-left: 5px solid var(--trust);
+  background-color:;
+  float: right;
+  height: 150px;
+  padding:2px;
+}
+.blog div .share img{
+  width:30px;
+  height: 30px;
+}
+@media(max-width:1000px){
+  .blog{
+    flex-direction: column;
+    margin: var(--gap-small) var(--margin-small);
+  }
+  .blog div{
+    width:100%;
+    margin: var(--gap-small) 0px;
+  }
 }
