@@ -561,6 +561,9 @@ button a:visited{
 section{
     margin:var(--gap-big) var(--margin-big);
 }
+section p{
+  text-align: justify;
+}
 @media(max-width:1000px){
   section{
       margin:var(--gap-small) var(--margin-small);
