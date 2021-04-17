@@ -179,7 +179,7 @@ footer{
   display:flex;
   width: 100%;
   background-color:rgb(50,50,50);
-  padding: 20px var(--margin-big);
+  padding: var(--gap-big) var(--margin-big);
   justify-content: space-between;
   font-family: verdana,sans-serif;
 }
@@ -228,6 +228,7 @@ footer div h3{
 
 @media(max-width:1000px){
   footer{
+    padding: var(--gap-small) var(--margin-small) ;
     flex-direction: column;
     justify-content: center;
   }
@@ -622,7 +623,8 @@ section p{
    text-align: center;
  }
  .fi-txt{
-   max-width: 80%;
+   width: 100%;
+   margin: var(--gap-small) var(--margin-small) ;
  }
  .fi-txt h1{
    font-size:70px;
