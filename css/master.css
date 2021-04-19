@@ -586,7 +586,7 @@ section p{
   margin: var(--gap-big) var(--margin-big) ;
   color:;
   background-color: ;
-  width: 100%
+  width: 100%;
 }
 .fi-txt h1{
   font-size:10vw;
