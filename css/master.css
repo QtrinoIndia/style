@@ -163,7 +163,9 @@ nav ul li a img {
     line-height: 30px;
   }
 
-
+  nav ul li a{
+     margin: 15px;
+  }
   #check:checked~ul {
     left: 0;
   }
