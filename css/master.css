@@ -236,9 +236,12 @@ footer div h3{
     flex-direction: column;
     justify-content: center;
   }
-  .help, .services,.web-links,.about{
+  .help, .services,.web-links{
     width: 100%;
     align-items: center;
+  }
+  .about{
+    width:100%;
   }
 }
 .gotop{
