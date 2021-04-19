@@ -242,6 +242,7 @@ footer div h3{
   }
   .about{
     width:100%;
+    align-items: center;
   }
 }
 .gotop{
