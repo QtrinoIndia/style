@@ -201,6 +201,7 @@ footer{
 .about p{
   color:rgb(200,200,200);
   margin: 0px;
+  font-size: 16px;
 }
 footer div a:link{
   color: #16a5b5;
@@ -648,13 +649,13 @@ section p{
   flex-wrap: wrap;
   align-items: center;
 }
-@media(max-width: 950px){
+@media(max-width: 1000px){
  .hi{
    justify-content: center;
    text-align: center;
  }
  .hi-txt{
-   max-width: 80%;
+   max-width: 100%;
  }
  .hi-txt h1{
    font-size:70px;
