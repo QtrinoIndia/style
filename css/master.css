@@ -49,8 +49,8 @@ nav {
   width: 100%;
   height: 60px;
   position: fixed;
- /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
- /* -webkit-tap-highlight-color: transparent;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ -webkit-tap-highlight-color: transparent;
 }
 nav ul li a:link{
   color: black;
@@ -108,7 +108,7 @@ nav ul li a {
   font-size: 16px;
   vertical-align: middle;
   padding: 7px 15px;
-  margin-left: 15px;
+  margin-left: 7px;
   border-radius: 3px;
   font-family: verdana, sans-serif;
 }
@@ -164,7 +164,8 @@ nav ul li a img {
   }
 
   nav ul li a{
-     margin: 15px;
+     margin: 7px;
+    padding: 7px 15px !important;
   }
   #check:checked~ul {
     left: 0;
