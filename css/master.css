@@ -586,7 +586,7 @@ section p{
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  min-height: 95vh;
+  min-height: 92.7vh;
   flex-wrap: wrap;
   align-items: center;
 }
