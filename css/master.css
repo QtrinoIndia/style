@@ -50,7 +50,7 @@ nav {
   height: 60px;
   position: fixed;
  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-  -webkit-tap-highlight-color: transparent;
+ /* -webkit-tap-highlight-color: transparent;*/
 }
 nav ul li a:link{
   color: black;
