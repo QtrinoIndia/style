@@ -1,7 +1,7 @@
 /* Some variables*/
 :root {
   --margin-big: 10%;
-  --margin-small: 4%;
+  --margin-small: 5%;
   --gap-big:15px;
   --gap-small:10px;
   --radius:3px;
@@ -759,7 +759,7 @@ section p{
   font-size: 16px;
   overflow: hidden;
   margin: 0px 0px;
-  height: 73px;
+  height: 68px;
   color: white;
 }
 .blog div section button{
