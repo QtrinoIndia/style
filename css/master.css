@@ -80,7 +80,7 @@ nav label span {
   line-height: 60px;
   vertical-align: middle;
   color: ;
-  font-size: 25px;
+  font-size: 27px;
   font-weight: bold;
 }
 
@@ -731,7 +731,7 @@ section p{
 }
 .blog > div{
   display: flex;
-  width:49%;
+  width:100%;
   background-color: var(--trust-low);
   border-radius: 3px;
   padding:7px 7px;
