@@ -465,37 +465,37 @@ button a:visited{
 
 /* IDEA: intro */
 .intro{
-  border-bottom: 1px solid black;
+  border-bottom: 5px solid black;
   margin:  var(--gap-big) var(--margin-big);
 }
 .primary-intro{
   color:var(--clr);
-  border-bottom: 1px solid var(--clr);
+  border-bottom: 5px solid var(--clr);
   margin:  var(--gap-big) var(--margin-big);
 }
 .fresh-intro{
   color:var(--fresh);
-  border-bottom: 1px solid var(--fresh);
+  border-bottom: 5px solid var(--fresh);
   margin:  var(--gap-big) var(--margin-big);
 }
 .trust-intro{
   color:var(--trust);
-  border-bottom: 1px solid var(--trust);
+  border-bottom: 5px solid var(--trust);
   margin:  var(--gap-big) var(--margin-big);
 }
 .love-intro{
   color:var(--love);
-  border-bottom: 1px solid var(--love);
+  border-bottom: 5px solid var(--love);
   margin:  var(--gap-big) var(--margin-big);
 }
 .wealth-intro{
   color:var(--wealth);
-  border-bottom: 1px solid var(--wealth);
+  border-bottom: 5px solid var(--wealth);
   margin:  var(--gap-big) var(--margin-big);
 }
 .attention-intro{
   color:var(--attention);
-  border-bottom: 1px solid var(--attention);
+  border-bottom: 5px solid var(--attention);
   margin:  var(--gap-big) var(--margin-big);
 }
 @media(max-width:1000px){
