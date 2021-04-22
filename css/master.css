@@ -452,6 +452,9 @@ button a:visited{
 
 
 /* NOTE: image NOTE: image NOTE: image NOTE: image*/
+img{
+  max-width:100%;
+}
 .flex-img{
   border-radius: var(--redius);
   width:100%;
