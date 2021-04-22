@@ -452,7 +452,22 @@ button a:visited{
 
 
 /* NOTE: image NOTE: image NOTE: image NOTE: image*/
-
+.flex-img{
+  border-radius: var(--redius);
+  display: flex;
+  justify-content:center;
+}
+.flex-img img{
+  width:48%;
+}
+@media(max-width:1000px){
+  .flex-img{
+    flex-direction: column;
+  }
+  .flex-img img{
+    width:100%;
+  }
+}
 /*cover image*/
 .cover-img{
   border-radius: var(--redius);
