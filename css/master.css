@@ -454,11 +454,13 @@ button a:visited{
 /* NOTE: image NOTE: image NOTE: image NOTE: image*/
 .flex-img{
   border-radius: var(--redius);
-  
+  width:100%;
 }
 .flex-img img{
-  width:70%;
-  margin: 15px 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:49%;
 }
 @media(max-width:1000px){
  
