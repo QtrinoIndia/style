@@ -267,7 +267,7 @@ footer div h3{
 /* NOTE: single container NOTE: single container  */
 
 .main{
-  
+  padding-top:60px;
   min-height: 100vh;
 }
 
