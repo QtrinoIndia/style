@@ -5,10 +5,10 @@
   --gap-big:15px;
   --gap-small:10px;
   --radius:3px;
-  --clrn:#16a5b5;
-  --clr:rgb(25,172,191);
-  --clr-low:rgba(25,172,191,.5);
-  --clr-bright:#1cc4d6;
+  --clrn:rgb(0,180,189);
+  --clr:rgb(0,180,189);
+  --clr-low:rgba(0,170,175,.5);
+  --clr-bright:rgb(0,210,219);
   --fresh:rgb(63,163,63);
   --fresh-low:rgba(63,163,63,.7);
   --trust:rgb(30,140,235);
@@ -54,11 +54,11 @@ nav {
  -webkit-tap-highlight-color: transparent;
 }
 nav ul li a:link{
-  color: black;
+  color: ;
   text-decoration: none;
 }
 nav ul li a:visited{
-  color: black;
+  color: ;
   text-decoration: none;
 }
 nav ul li a:hover{
