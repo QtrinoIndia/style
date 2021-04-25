@@ -54,11 +54,11 @@ nav {
  -webkit-tap-highlight-color: transparent;
 }
 nav ul li a:link{
-  color: ;
+  color: black;
   text-decoration: none;
 }
 nav ul li a:visited{
-  color: ;
+  color: black;
   text-decoration: none;
 }
 nav ul li a:hover{
