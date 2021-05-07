@@ -1,6 +1,7 @@
 /* Some variables*/
 :root {
-  --margin-big: 12%;
+  --margin-nav-foot:8%;
+  --margin-big: 14%;
   --margin-small: 5%;
   --gap-big:15px;
   --gap-small:10px;
@@ -75,7 +76,7 @@ nav ul li a:active{
   background-color: transparent;
 }
 nav label.logo {
-  margin-left: var(--margin-big);
+  margin-left: 8%;
 }
 
 nav label span {
@@ -96,7 +97,7 @@ nav label img {
 nav ul {
   margin: 0;
   float: right;
-  margin-right: var(--margin-big);
+  margin-right: var(--margin-nav-foot);
 }
 
 nav ul li {
@@ -140,7 +141,7 @@ nav ul li a img {
 @media(max-width: 1000px) {
   .checkbtn {
     display: block;
-    margin-right: var(--margin-small);
+    margin-right: var(--margin-nav-foot);
   }
 
   nav ul {
@@ -181,7 +182,7 @@ footer{
   display:flex;
   width: 100%;
   background-color:rgb(50,50,50);
-  padding: var(--gap-big) var(--margin-big);
+  padding: var(--gap-big) var(--margin-nav-foot);
   justify-content: space-between;
 }
 .help, .services, .web-links{
