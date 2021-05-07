@@ -376,6 +376,14 @@ footer div h3{
 }
 
 /* NOTE: html elements styles NOTE: html elements styles*/
+/*right-left*/
+.right{
+  margin-right:0px;
+  float:right;
+}
+.left{
+  margin-left:0px;
+  float:left;}
 
 /* NOTE: headings */
 h1, h2, h3, h4, h5, h6{
