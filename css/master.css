@@ -76,7 +76,7 @@ nav ul li a:active{
   background-color: transparent;
 }
 nav label.logo {
-  margin-left: 8%;
+  margin-left: var(--margin-nav-foot);
 }
 
 nav label span {
