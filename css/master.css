@@ -141,7 +141,7 @@ nav ul li a img {
 @media(max-width: 1000px) {
   .checkbtn {
     display: block;
-    margin-right: var(--margin-nav-foot);
+    
   }
 
   nav ul {
