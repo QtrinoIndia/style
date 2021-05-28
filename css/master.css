@@ -747,8 +747,9 @@ section p{
 .four-block{
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:flex-start;
 }
+
 .four-block > div{
   width:250px;
   min-height: 250px;
@@ -759,21 +760,23 @@ section p{
 /*blog post*/
 .blog{
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   margin: var(--gap-big) var(--margin-big);
+  flex-wrap: wrap;
 }
-.blog > div{
+.blog div{
   display: flex;
   flex-direction: column;
-  width:30%;
+  width:23%;
   background-color: var(--trust-low);
   border-radius: 3px;
   padding:7px 7px;
+  margin:var(--gap-big) 1%;
 }
 .blog div img{
-  width: 100%;
-  height:150px;
-  margin: 2px;
+  width: 95%;
+  height:57%;
+  margin: 7px;
   background-color:;
   align-content: flex-start;
 }
@@ -784,53 +787,44 @@ section p{
   overflow: hidden;
   height:150px;
 }
-.blog div section h2{
+.blog div h2{
   font-size: 22px;
+  margin: 2px 7px;
 }
-.blog div section p{
+.blog div p{
+  height:150px;
+  margin: 2px 7px;
   font-size: 16px;
   overflow: hidden;
-  margin: 0px 0px;
   height: 68px;
   color: white;
 }
-.blog div section button{
+.blog div button{
   padding: 5px;
+  margin: 2px 7px;
+  margin-bottom: 7px;
   background-color: var(--trust);
   font-size: 16px;
 }
-.blog div .share{
-  width:90px;
-  margin: 2px;
-  border-left: 5px solid var(--trust);
-  background-color:;
-  height: 150px;
-  padding:2px;
-}
-.blog div .share img{
-  width:30px;
-  height:30px;
-}
+
 @media(max-width:1000px){
   .blog{
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .blog div{
+    width:46%;
+    margin: var(--gap-big) 2%;
+  }
+}
+
+@media(max-width:500px){
+  .blog{
     flex-direction: column;
-    margin: var(--gap-small) var(--margin-small);
   }
   .blog div{
     width:100%;
     margin: var(--gap-small) 0px;
-  }
-}
-@media(max-width:400px){
-  .blog div{
-    flex-direction: column;
-  }
-  .blog div img{
-    width:100%;
-    height:auto;
-  }
-  .blog div .share{
-    width:100%;
-    height:38px;
   }
 }
