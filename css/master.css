@@ -1,6 +1,7 @@
 /* Some variables*/
 :root {
-  --margin-big: 10%;
+  --margin-nav-foot:3%;
+  --margin-big: 3%;
   --margin-small: 5%;
   --gap-big:15px;
   --gap-small:10px;
@@ -75,7 +76,7 @@ nav ul li a:active{
   background-color: transparent;
 }
 nav label.logo {
-  margin-left: var(--margin-big);
+  margin-left: var(--margin-nav-foot);
 }
 
 nav label span {
@@ -96,7 +97,7 @@ nav label img {
 nav ul {
   margin: 0;
   float: right;
-  margin-right: var(--margin-big);
+  margin-right: var(--margin-nav-foot);
 }
 
 nav ul li {
@@ -181,7 +182,7 @@ footer{
   display:flex;
   width: 100%;
   background-color:rgb(50,50,50);
-  padding: var(--gap-big) var(--margin-big);
+  padding: var(--gap-big) var(--margin-nav-foot);
   justify-content: space-between;
 }
 .help, .services, .web-links{
@@ -283,16 +284,19 @@ footer div h3{
   width:18%;
   background-color: rgb(248,248,248);
   padding:0px 15px;
+  order:1;
 }
 .container-3-r{
   width:18%;
   background-color: rgb(248,248,248);
   padding:0px 15px;
+  order:3;
 }
 /* middle/content container */
 .container-3-m{
   width:64%;
   padding:0px 15px;
+  order:2;
 }
 @media(max-width: 950px){
   .container-3{
@@ -375,10 +379,19 @@ footer div h3{
 }
 
 /* NOTE: html elements styles NOTE: html elements styles*/
+/*right-left*/
+.right{
+  margin-right:0px;
+  float:right;
+}
+.left{
+  margin-left:0px;
+  float:left;}
 
 /* NOTE: headings */
 h1, h2, h3, h4, h5, h6{
   margin: 7px 0px;
+  line-height: 1.4;
 }
 
 /* NOTE: Paragraphs */
